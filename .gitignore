@@ -1,2 +1,13 @@
-# OSX files
-.DS_Store
+# Node packages downloaded via "npm install"
+node_modules/
+
+# Bower packages downloaded via "bower install"
+bower_components/
+
+# Ignore the fonts/js/css that gets built
+fonts/
+prod.js
+style.css
+
+# Misc files types
+*.DS_Store
