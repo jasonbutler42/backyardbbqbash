@@ -16,7 +16,7 @@ get_header(); ?>
 	<div class="col-md-8 main_content">
 		<?php get_template_part( 'content'); ?>
 	</div>
-	<div class="col-md-4">
+	<div class="col-md-4 main_sidebar">
 		<?php get_sidebar(); ?>
 	</div>
 </div>
