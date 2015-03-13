@@ -5,9 +5,9 @@ node_modules/
 bower_components/
 
 # Ignore the fonts/js/css that gets built
-fonts/
-prod.js
-style.css
+# fonts/
+# prod.js
+# style.css
 
 # Misc files types
 *.DS_Store
