@@ -1,0 +1,503 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Fanciest Author Box v1.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2012-08-24 18:10:52+0000\n"
+"Last-Translator: eax <klavs.petersons@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Language: Latvian\n"
+"X-Poedit-Country: LATVIA\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: includes/ts-fab-construct-tabs.php:60
+#: includes/ts-fab-construct-tabs.php:64
+#@ ts-fab
+msgid "at"
+msgstr "pie"
+
+#: includes/ts-fab-construct-tabs.php:145
+#@ ts-fab
+msgid "Couldn't fetch latest tweet."
+msgstr "Nevarēja ielādēt jaunāko tvītu."
+
+#: includes/ts-fab-construct-tabs.php:333
+#@ ts-fab
+msgid "Latest posts by "
+msgstr "Jaunākie raksti no "
+
+#: includes/ts-fab-construct-tabs.php:333
+#@ ts-fab
+msgid "see all"
+msgstr "skatīt visu"
+
+#: includes/ts-fab-construct-tabs.php:452
+#: includes/ts-fab-settings.php:296
+#@ ts-fab
+msgid "Bio"
+msgstr "Biogrāfija"
+
+#: includes/ts-fab-construct-tabs.php:478
+#@ ts-fab
+msgid "Latest Posts"
+msgstr "Jaunākie Raksti"
+
+#: includes/ts-fab-settings.php:83
+#@ ts-fab
+msgid "Display settings"
+msgstr "Displeja iestastījumi"
+
+#: includes/ts-fab-settings.php:84
+#@ ts-fab
+msgid ""
+"\n"
+"\t\t\t\t<p>\n"
+"\t\t\t\t\t<strong>Automatically add to posts</strong><br />\n"
+"\t\t\t\t\tShow in posts, pages and custom posts options allow you to automatically add Fanciest Author Box before or after your posts, pages and custom posts.\n"
+"\t\t\t\t</p>\n"
+"\t\t\t\t<p>\n"
+"\t\t\t\t\t<strong>Shortcode</strong><br />\n"
+"\t\t\t\t\tYou can use [ts_fab] shortcode to add Fanciest Author Box inside your posts.\n"
+"\t\t\t\t</p>\t\t\t\t\n"
+"\t\t\t\t<p>\n"
+"\t\t\t\t\t<strong>Widget</strong><br />\n"
+"\t\t\t\t\tIf you're using a theme with widgetized sidebars Fanciest Author Box widget allows you to add Fanciest Author Box to your site sidebar.\n"
+"\t\t\t\t</p>\t\t\t\t\n"
+"\t\t\t\t<p>\n"
+"\t\t\t\t\t<strong>Template tag</strong><br />\n"
+"\t\t\t\t\tFanciest Author Box can be added anywhere in your theme by using ts_fab() template tag.\n"
+"\t\t\t\t</p>\t\t\t\t\n"
+"\t\t\t"
+msgstr ""
+"\n"
+"\\\t\\\t\\\t\\\t<p>\n"
+"\\\t\\\t\\\t\\\t\\\t<strong>Automātiski pievienot rakstus</strong><br />\n"
+"\\\t\\\t\\\t\\\t\\\tRādīt rakstos, lapās un citos ierakstos uzstādījumi atļauj Tev automātiski pievienot Fanciest Author Box pirms vai pēc taviem rakstiem, lapām un citiem ierakstiem.\n"
+"\\\t\\\t\\\t\\\t</p>\n"
+"\\\t\\\t\\\t\\\t<p>\n"
+"\\\t\\\t\\\t\\\t\\\t<strong>Shortcode</strong><br />\n"
+"\\\t\\\t\\\t\\\t\\\tTu vari izmantot [ts_fab] shortcode, lai pievienotu Fanciest Author Box iekš saviem rakstiem.\n"
+"\\\t\\\t\\\t\\\t</p>\\\t\\\t\\\t\\\t\n"
+"\\\t\\\t\\\t\\\t<p>\n"
+"\\\t\\\t\\\t\\\t\\\t<strong>Logdaļa</strong><br />\n"
+"\\\t\\\t\\\t\\\t\\\tJa Tu izmanto tēmu kura atbalsta logdaļas Fanciest Author Box logdaļa atļauj Tev pievienot Fanciest Author Box tavai mājas lapai sānos.\n"
+"\\\t\\\t\\\t\\\t</p>\\\t\\\t\\\t\\\t\n"
+"\\\t\\\t\\\t\\\t<p>\n"
+"\\\t\\\t\\\t\\\t\\\t<strong>Templeita tags</strong><br />\n"
+"\\\t\\\t\\\t\\\t\\\tFanciest Author Box var pievienot visur izmantojot ts_fab() templeita tagu.\n"
+"\\\t\\\t\\\t\\\t</p>\\\t\\\t\\\t\\\t\n"
+"\\\t\\\t\\\t"
+
+#: includes/ts-fab-settings.php:106
+#@ ts-fab
+msgid "Tabs settings"
+msgstr "Cilņu iestastījumi"
+
+#: includes/ts-fab-settings.php:107
+#@ ts-fab
+msgid ""
+"\n"
+"\t\t\t\t<p>\n"
+"\t\t\t\t\t<strong>Twitter cache interval</strong><br />\n"
+"\t\t\t\t\tBecause of Twitter API limits of 150 unauthenticated calls per hour Twitter info for each user is stored as a cache object.\n"
+"\t\t\t\t</p>\n"
+"\t\t\t\t<p>\n"
+"\t\t\t\t\t<strong>Facebook Subscribe</strong><br />\n"
+"\t\t\t\t\tYou must <a href=\"https://www.facebook.com/about/subscribe\">enable subscriptions for your Facebook profile</a> before Subscribe button can appear.\n"
+"\t\t\t\t</p>\t\t\t\t\n"
+"\t\t\t\t<p>\n"
+"\t\t\t\t\t<strong>Default tabs in shortcode and template tag</strong><br />\n"
+"\t\t\t\t\tYou can override default tabs settings in shortcode and template tag by using 'tabs' parameter:<br />\n"
+"\t\t\t\t\t<strong>Shortcode:</strong> [ts_fab tabs=\"bio,twitter,facebook,googleplus,latest_posts\"]<br />\n"
+"\t\t\t\t\t<strong>Template tag:</strong> ts_fab( $context = '', $authorid = '', $tabs = 'bio,twitter,facebook,googleplus,latest_posts' )\n"
+"\t\t\t\t</p>\t\t\t\t\n"
+"\t\t\t"
+msgstr ""
+"\n"
+"\\\t\\\t\\\t\\\t<p>\n"
+"\\\t\\\t\\\t\\\t\\\t<strong>Twitter keša intervāls</strong><br />\n"
+"\\\t\\\t\\\t\\\t\\\tTwitter API limits no 150 neautentificētiem saucieniem katru stundu Twitter info par katru lietotāju tiek saglabāta,kā keša objekts.\n"
+"\\\t\\\t\\\t\\\t</p>\n"
+"\\\t\\\t\\\t\\\t<p>\n"
+"\\\t\\\t\\\t\\\t\\\t<strong>Facebook Abonēšana</strong><br />\n"
+"\\\t\\\t\\\t\\\t\\\tTev vajag <a href=\"https://www.facebook.com/about/subscribe\">ieslēgt abonēšanau savā Facebook profilā</a> pirms Abonēšanas poga parādās.\n"
+"\\\t\\\t\\\t\\\t</p>\\\t\\\t\\\t\\\t\n"
+"\\\t\\\t\\\t\\\t<p>\n"
+"\\\t\\\t\\\t\\\t\\\t<strong>Standarta cilnes shortcode un templeita tags</strong><br />\n"
+"\\\t\\\t\\\t\\\t\\\tTu vari pārmainīt standarta cilnes iestastījumus iekš shortcode un templeita taga izmantojot 'cilnes' parametrus:<br />\n"
+"\\\t\\\t\\\t\\\t\\\t<strong>Shortcode:</strong> [ts_fab tabs=\"bio,twitter,facebook,googleplus,latest_posts\"]<br />\n"
+"\\\t\\\t\\\t\\\t\\\t<strong>Template tag:</strong> ts_fab( $context = '', $authorid = '', $tabs = 'bio,twitter,facebook,googleplus,latest_posts' )\n"
+"\\\t\\\t\\\t\\\t</p>\\\t\\\t\\\t\\\t\n"
+"\\\t\\\t\\\t"
+
+#: includes/ts-fab-settings.php:127
+#@ ts-fab
+msgid "Get in touch with us on:"
+msgstr "Sazinies ar mums:"
+
+#: includes/ts-fab-settings.php:129
+#@ ts-fab
+msgid "Our website"
+msgstr "Mūsu mājas lapa"
+
+#: includes/ts-fab-settings.php:167
+#: includes/ts-fab-settings.php:718
+#@ ts-fab
+msgid "Display Settings"
+msgstr "Displeja Iestastījumi"
+
+#: includes/ts-fab-settings.php:175
+#@ ts-fab
+msgid "Show in posts"
+msgstr "Rādīt rakstos"
+
+#: includes/ts-fab-settings.php:180
+#: includes/ts-fab-settings.php:191
+#@ ts-fab
+msgid "Select where to display."
+msgstr "Izvēlies kur attēlot"
+
+#: includes/ts-fab-settings.php:186
+#@ ts-fab
+msgid "Show in pages"
+msgstr "Rādīt lapās"
+
+#: includes/ts-fab-settings.php:208
+#@ ts-fab
+msgid "Show in"
+msgstr "Rādīt iekš"
+
+#: includes/ts-fab-settings.php:223
+#@ ts-fab
+msgid "Color Settings"
+msgstr "Krāsu Iestastījumi"
+
+#: includes/ts-fab-settings.php:230
+#@ ts-fab
+msgid "Inactive tab colors"
+msgstr "Neaktīvās cilnes krāsas"
+
+#: includes/ts-fab-settings.php:237
+#: includes/ts-fab-settings.php:253
+#: includes/ts-fab-settings.php:269
+#@ ts-fab
+msgid "Background"
+msgstr "Fons"
+
+#: includes/ts-fab-settings.php:238
+#: includes/ts-fab-settings.php:254
+#: includes/ts-fab-settings.php:270
+#@ ts-fab
+msgid "Border"
+msgstr "Apmale"
+
+#: includes/ts-fab-settings.php:239
+#: includes/ts-fab-settings.php:255
+#: includes/ts-fab-settings.php:271
+#@ ts-fab
+msgid "Text"
+msgstr "Teksts"
+
+#: includes/ts-fab-settings.php:246
+#@ ts-fab
+msgid "Active tab colors"
+msgstr "Aktīvās cilnes krāsas"
+
+#: includes/ts-fab-settings.php:262
+#@ ts-fab
+msgid "Tab content colors"
+msgstr "Cilnes satura krāsas"
+
+#: includes/ts-fab-settings.php:288
+#: includes/ts-fab-settings.php:719
+#@ ts-fab
+msgid "Tabs Settings"
+msgstr "Cilnes Iestastījumi"
+
+#: includes/ts-fab-settings.php:301
+#@ ts-fab
+msgid "Display bio tab"
+msgstr "Rādīt biogrāfijas cilni"
+
+#: includes/ts-fab-settings.php:312
+#@ ts-fab
+msgid "Display Twitter tab"
+msgstr "Rādīt Twitter cilni"
+
+#: includes/ts-fab-settings.php:313
+#@ ts-fab
+msgid "Twitter cache interval (minutes): "
+msgstr "Twitter keša intervāls (minūtes):"
+
+#: includes/ts-fab-settings.php:314
+#@ ts-fab
+msgid "Show Twitter bio"
+msgstr "Rādīt Twitter biogrāfiju"
+
+#: includes/ts-fab-settings.php:315
+#@ ts-fab
+msgid "Show latest tweet"
+msgstr "Rādīt jaunāko tvītu"
+
+#: includes/ts-fab-settings.php:316
+#@ ts-fab
+msgid "Show follower count"
+msgstr "Rādīt sekotāju skaitu"
+
+#: includes/ts-fab-settings.php:328
+#@ ts-fab
+msgid "Display Facebook tab"
+msgstr "Rādīt Facebook cilni"
+
+#: includes/ts-fab-settings.php:339
+#@ ts-fab
+msgid "Display Google+ tab"
+msgstr "Rādīt Google+ cilni"
+
+#: includes/ts-fab-settings.php:345
+#@ ts-fab
+msgid "Latest posts"
+msgstr "Jaunākie raksti"
+
+#: includes/ts-fab-settings.php:350
+#@ ts-fab
+msgid "Display latest posts tab"
+msgstr "Rādīt jaunāko rakstu cilni"
+
+#: includes/ts-fab-settings.php:351
+#@ ts-fab
+msgid "Number of latest posts to show:"
+msgstr "Rādīt jaunāko rakstu skaitu:"
+
+#: includes/ts-fab-settings.php:357
+#: includes/ts-fab-user-settings.php:129
+#: includes/ts-fab-widget.php:171
+#@ ts-fab
+msgid "Custom tab"
+msgstr "Rediģējama cilne"
+
+#: includes/ts-fab-settings.php:362
+#@ ts-fab
+msgid "Display custom tab"
+msgstr "Rādīt rediģējamo cilni"
+
+#: includes/ts-fab-settings.php:363
+#@ ts-fab
+msgid "Custom tab heading"
+msgstr "Rediģējama galvenes cilne"
+
+#: includes/ts-fab-settings.php:364
+#: includes/ts-fab-user-settings.php:136
+#@ ts-fab
+msgid "Custom tab content"
+msgstr "Rediģējama satura cilne"
+
+#: includes/ts-fab-settings.php:365
+#@ ts-fab
+msgid "Allow authors to override custom tab in their user profiles"
+msgstr "Atļaut autoram ignorēt rediģējamo cilni viņu lietotāju profilos"
+
+#: includes/ts-fab-settings.php:366
+#@ ts-fab
+msgid "(if not provided in either plugin or user settings, custom tab will not be visible)"
+msgstr "(ja tas nav norādīts spraudnī vai lietotāja iestatījumos, rediģējamā cilne nebūs redzama)"
+
+#: includes/ts-fab-settings.php:399
+#@ ts-fab
+msgid "Select where and how Fanciest Author Box appears in your posts, pages and custom posts. For individual tab settings, go to Tabs Settings."
+msgstr "Izvēlieties, kur un kā Fanciest Author Box parādīsies jūsu rakstos, lapās un citos ierakstos. Individuālas cilnes iestatījumus var atrast, dodieties uz Cilņu Iestatījumiem."
+
+#: includes/ts-fab-settings.php:425
+#@ ts-fab
+msgid "These options can be overriden when Fanciest Author is displayed using widget, shortcode or template tag. For display settings, go to Display Settings tab."
+msgstr "Šie uzstādījumi var tikt pārrakstīti kad autors tiek parādīts, izmantojot logdaļu, shortcode vai veidņu birku. Priekš displeja iestatījumiem, dodieties uz Displeja Iestastījumu cilni."
+
+#: includes/ts-fab-settings.php:441
+#: includes/ts-fab-settings.php:461
+#: includes/ts-fab-settings.php:482
+#@ ts-fab
+msgid "Above"
+msgstr "Virs"
+
+#: includes/ts-fab-settings.php:442
+#: includes/ts-fab-settings.php:462
+#: includes/ts-fab-settings.php:483
+#@ ts-fab
+msgid "Below"
+msgstr "Zem"
+
+#: includes/ts-fab-settings.php:443
+#: includes/ts-fab-settings.php:463
+#: includes/ts-fab-settings.php:484
+#@ ts-fab
+msgid "Both"
+msgstr "Abi"
+
+#: includes/ts-fab-settings.php:444
+#: includes/ts-fab-settings.php:464
+#: includes/ts-fab-settings.php:485
+#@ ts-fab
+msgid "No"
+msgstr "Nē"
+
+#: includes/ts-fab-settings.php:710
+#@ ts-fab
+msgid "The only author box plugin you'll ever need."
+msgstr "Vienīgais autora spraudnis kurš Tev jebkad nepieciešams."
+
+#: includes/ts-fab-settings.php:728
+#@ ts-fab
+msgid "Reset all color settings"
+msgstr "Atjaunot visus krāsu iestastījumus"
+
+#: includes/ts-fab-user-settings.php:12
+#@ ts-fab
+msgid "User Details"
+msgstr "Lietotāja Detaļas"
+
+#: includes/ts-fab-user-settings.php:21
+#@ ts-fab
+msgid "Display Fanciest Author Box"
+msgstr "Rādīt Fanciest Author Box"
+
+#: includes/ts-fab-user-settings.php:25
+#@ ts-fab
+msgid "Do not automatically add Fanciest Author Box to your posts, pages and custom posts."
+msgstr "Nepievienot automātiski Fanciest Author Box saviem rakstiem, lapām un citiem ierakstiem."
+
+#: includes/ts-fab-user-settings.php:35
+#@ ts-fab
+msgid "Photo URL (optional, if left empty Gravatar image will be used), ideally image should be 64x64 px."
+msgstr "Foto URL (obligāts, ja atstāj tukšu tad Gravatar attēls tiks izmantots), ideālajam attēlam vajadzētu būt 64x64 px."
+
+#: includes/ts-fab-user-settings.php:44
+#@ ts-fab
+msgid "Your Twitter username (example: thematosoup)."
+msgstr "Tavs Twitter lietotājvārds (piemērs: thematosoup)."
+
+#: includes/ts-fab-user-settings.php:59
+#@ ts-fab
+msgid "Facebook widget type"
+msgstr "Facebook logdaļas tips"
+
+#: includes/ts-fab-user-settings.php:63
+#@ ts-fab
+msgid "Subscribe"
+msgstr "Abonē"
+
+#: includes/ts-fab-user-settings.php:67
+#@ ts-fab
+msgid "Like"
+msgstr "Patīk"
+
+#: includes/ts-fab-user-settings.php:76
+#@ ts-fab
+msgid "Your Facebook username or ID. (example: thematosoup)"
+msgstr "Tavs Facebook lietotājvārds vai ID. (piemērs: thematosoup)"
+
+#: includes/ts-fab-user-settings.php:84
+#@ ts-fab
+msgid "Your Google+ ID. (example: 104360438826479763912)"
+msgstr "Tavs Google+ ID. (piemērs: 104360438826479763912)"
+
+#: includes/ts-fab-user-settings.php:89
+#@ ts-fab
+msgid "Position"
+msgstr "Amats"
+
+#: includes/ts-fab-user-settings.php:93
+#@ ts-fab
+msgid "Your position."
+msgstr "Tavs amats."
+
+#: includes/ts-fab-user-settings.php:98
+#@ ts-fab
+msgid "Company"
+msgstr "Kompānija"
+
+#: includes/ts-fab-user-settings.php:102
+#@ ts-fab
+msgid "Your company."
+msgstr "Tava kompānija."
+
+#: includes/ts-fab-user-settings.php:107
+#: includes/ts-fab-user-settings.php:116
+#@ ts-fab
+msgid "Company URL"
+msgstr "Kompānijas URL"
+
+#: includes/ts-fab-user-settings.php:111
+#: includes/ts-fab-user-settings.php:120
+#@ ts-fab
+msgid "Your company URL."
+msgstr "Tavas kompānijas URL."
+
+#: includes/ts-fab-user-settings.php:133
+#@ ts-fab
+msgid "Custom tab title (if not provided by either you or website admin, custom tab will not be visible)"
+msgstr "Cits cilnes virsraksts (ja nebūsi norādījis Tu vai mājas lapas adminstrators tad cilne nebūs redzama)"
+
+#: includes/ts-fab-widget.php:18
+#@ ts-fab
+msgid "widget"
+msgstr "logdaļa"
+
+#: includes/ts-fab-widget.php:28
+#@ ts-fab
+msgid "Author Spotlight"
+msgstr "Autors uzmanības centrā"
+
+#: includes/ts-fab-widget.php:127
+#@ ts-fab
+msgid "Title: "
+msgstr "Virsraksts:"
+
+#: includes/ts-fab-widget.php:134
+#@ ts-fab
+msgid "Select Author:"
+msgstr "Izvēlies Autoru:"
+
+#: includes/ts-fab-widget.php:151
+#@ ts-fab
+msgid "Bio tab"
+msgstr "Biogrāfijas cilne"
+
+#: includes/ts-fab-widget.php:155
+#@ ts-fab
+msgid "Twitter tab"
+msgstr "Twitter cilne"
+
+#: includes/ts-fab-widget.php:159
+#@ ts-fab
+msgid "Facebook tab"
+msgstr "Facebook cilne"
+
+#: includes/ts-fab-widget.php:163
+#@ ts-fab
+msgid "Google+ tab"
+msgstr "Google+ cilne"
+
+#: includes/ts-fab-widget.php:167
+#@ ts-fab
+msgid "Latest posts tab"
+msgstr "Jaunāko rakstu cilne"
+
+#: includes/ts-fab-widget.php:176
+#@ ts-fab
+msgid "Float photo (uncheck for narrow sidebars)"
+msgstr "Plūstošs foto (neatķeksējiet,ja jums mājas lapai šaurs sidebar)"
+
+#: ts-fab.php:56
+#@ ts-fab
+msgid "Settings"
+msgstr "Uzstādījumi"
+

@@ -1,0 +1,228 @@
+/* 
+	Fanciest Author Box
+	Author: ThematoSoup
+	Author URL: http://thematosoup.com
+*/
+
+
+/* Wrapper */
+.ts-fab-wrapper {
+	padding: 2em 0;
+	clear: both;
+}
+.ts-fab-wrapper a {
+	text-decoration: none !important;
+}
+.ts-fab-wrapper img {
+	border: none !important;
+	padding: 0 !important;
+}
+
+
+/* Tabs list */
+.ts-fab-list {
+	overflow: hidden;
+	padding: 0 0 0 0 !important;
+	margin: 0 !important;
+}
+.ts-fab-list li {
+	display: block;
+	float: left;
+	list-style: none;
+	margin: 0 5px 0 0 !important;
+	padding: 0 !important;
+	background: none !important;
+}
+.ts-fab-list li:before {
+	display: none !important;
+}
+.ts-fab-list li a {
+	display: block;
+	line-height: 16px;
+	height: 16px;
+	padding: 8px;
+	background-color: #fbfbf9;
+	border: 1px solid #f2f2ef;
+	border-bottom: none !important;
+	text-decoration: none;
+	font-size: 13px;
+	color: #404040;
+	font-weight: bold;
+	outline: none;
+	text-shadow: none !important;
+	
+	box-sizing: content-box;
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+}
+.ts-fab-list li.active a {
+	background-color: #f2f2ef;
+	border: 1px solid #f2f2ef;
+	color: #252525;
+}
+
+
+/* Text only display */	
+.ts-fab-text-only .ts-fab-list li a span.genericon {
+	display: none;
+}
+/* Icons only display */
+.ts-fab-widget .ts-fab-list li a span.ts-fab-tab-text,
+.ts-fab-icons-only .ts-fab-list li a span.ts-fab-tab-text {
+	display: none;
+}
+
+
+/* Tabs content */
+.ts-fab-tab {
+	visibility: hidden;
+	height: 0px;
+	width: 0px;
+	border: none;
+	overflow: hidden;
+	padding: 0;
+}
+.ts-fab-tab.visible-tab {
+	visibility: visible;
+	min-height: 64px;
+	border: 1px solid #f2f2ef;
+	padding: 12px;
+	background: #f2f2ef;
+	color: #404040;
+	width: auto;
+	height: auto;
+	box-sizing: content-box;
+	-moz-box-sizing: content-box;
+}
+.ts-fab-tab:after {
+	content: '';
+	display: table;
+	clear: both;
+}
+.ts-fab-tab:first-child {
+	display: block;
+}
+	.ts-fab-widget .ts-fab-tab.visible-tab {
+		padding: 8px;
+	}
+
+
+/* In-tab layout (gravatar, text) */
+.ts-fab-avatar {
+	display: block;
+	float: left;
+	width: 64px;
+	height: 64px;
+}
+	.ts-fab-no-float .ts-fab-avatar {
+		float: none;
+		margin: 0 0 12px;
+	}
+.ts-fab-avatar img {
+	display: block;
+	border: none !important;
+}
+.ts-fab-text {
+	margin-left: 76px;
+	line-height: 1.5;
+}
+	.ts-fab-no-float .ts-fab-text {
+		margin-left: 0;
+	}
+
+
+/* Tabs header */
+.ts-fab-header {
+	margin-bottom: 10px;
+}
+.ts-fab-text h4 {
+	clear: none;
+	font-size: 18px;
+	line-height: 1 !important;
+	font-weight: bold;
+	margin: 0 0 0.2em !important;
+	line-height: 1;
+	padding: 0;
+}
+.ts-fab-description {
+	font-size: 12px;
+}
+
+.ts-fab-follow {
+	margin-top: 10px;
+}
+	
+	
+/* Latest posts */
+.ts-fab-latest {
+	margin: 0 !important;
+	padding: 0 !important;
+}
+.ts-fab-latest li {
+	list-style: none !important;
+	line-height: 1.1;
+	margin: 0 0 0.6em !important;
+}
+.ts-fab-latest li span,
+.ts-fab-twitter-time {
+	font-size: 12px;
+}
+.latest-see-all {
+	font-weight: normal;
+}
+
+/* Twitter */
+.ts-fab-twitter-tweet {
+	line-height: 1.2;
+	margin-bottom: 0.75em;
+}
+
+/* LinkedIn */
+.ts-fab-wrapper iframe {
+	margin-bottom: 0 !important;
+}
+
+/* Hide author boxes added by popular themes */
+.author-box,
+.article-author,
+.author-info,
+#entry-author-info,
+#author-bio-box,
+#cab-author,
+#authorarea,
+.author-wrap,
+#post-author {
+	display:none
+}
+
+/* RTL */
+/* === */
+body.rtl .ts-fab-avatar {
+	float: right;
+}
+body.rtl .ts-fab-text {
+	margin-left: 0;
+	margin-right: 76px;
+}
+body.rtl .ts-fab-list {
+	padding: 0 5px 0 0 !important;
+}
+body.rtl .ts-fab-list li {
+	float: right;
+	margin: 0 0 0 5px !important;
+}
+
+
+/* Facebook widget Firefox fix */
+.ts-fab-wrapper .fb_iframe_widget > span,
+.ts-fab-wrapper .fb_iframe_widget > span iframe {
+	min-height: 64px !important;
+}
+
+/* Pinterest widget CSS fixes */
+.ts-fab-pinterest-widget-wrapper > a {
+	display: none; /* Hide plain link before widget is loaded */
+}
+.ts-fab-pinterest-widget-wrapper span {
+	max-width: 100% !important;
+}

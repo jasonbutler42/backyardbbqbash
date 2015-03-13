@@ -1,0 +1,12 @@
+/*
+ * Fanciest Author Box admin page CSS
+ */
+
+#poststuff.ts-fab-poststuff h3 {
+	font-size: 1.3em;
+	margin: 1em 0;
+	padding: 0;
+}
+.ts-fab-color-input {
+	width: 100px;
+}
