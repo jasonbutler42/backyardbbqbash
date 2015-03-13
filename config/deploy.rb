@@ -1,4 +1,4 @@
-set :application, 'backyardbbq'
+set :application, 'backyardbbqbash'
 set :repo_url, 'git@github.com:jasonbutler42/backyardbbqbash.git'
 
 # Branch options
