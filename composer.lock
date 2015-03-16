@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "2ae55ecfbbbeee08e2fac3b741721a5b",
+    "hash": "cb79ab3d434dc3f15ae131f355f6149a",
     "packages": [
         {
             "name": "composer/installers",
@@ -428,49 +428,6 @@
             "homepage": "http://wordpress.org/plugins/honeypot-comments/"
         },
         {
-            "name": "wpackagist-plugin/infinite-scroll",
-            "version": "2.6.2",
-            "source": {
-                "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/infinite-scroll/",
-                "reference": "tags/2.6.2"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "http://downloads.wordpress.org/plugin/infinite-scroll.2.6.2.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "replace": {
-                "wpackagist/infinite-scroll": "self.version"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "http://wordpress.org/plugins/infinite-scroll/"
-        },
-        {
-            "name": "wpackagist-plugin/iq-block-country",
-            "version": "1.1.16",
-            "source": {
-                "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/iq-block-country/",
-                "reference": "tags/1.1.16"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "http://downloads.wordpress.org/plugin/iq-block-country.1.1.16.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/iq-block-country/"
-        },
-        {
             "name": "wpackagist-plugin/jetpack",
             "version": "3.3.2",
             "source": {
@@ -603,26 +560,6 @@
             "homepage": "http://wordpress.org/plugins/sabre/"
         },
         {
-            "name": "wpackagist-plugin/search-and-replace",
-            "version": "2.7.0",
-            "source": {
-                "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/search-and-replace/",
-                "reference": "tags/2.7.0"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "http://downloads.wordpress.org/plugin/search-and-replace.2.7.0.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/search-and-replace/"
-        },
-        {
             "name": "wpackagist-plugin/subscribe-to-comments-reloaded",
             "version": 150207,
             "source": {
@@ -707,26 +644,6 @@
             },
             "type": "wordpress-plugin",
             "homepage": "http://wordpress.org/plugins/wordpress-importer/"
-        },
-        {
-            "name": "wpackagist-plugin/wp-smushit",
-            "version": "1.7",
-            "source": {
-                "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/wp-smushit/",
-                "reference": "tags/1.7"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "http://downloads.wordpress.org/plugin/wp-smushit.1.7.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/wp-smushit/"
         }
     ],
     "packages-dev": [],

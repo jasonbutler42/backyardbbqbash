@@ -402,31 +402,6 @@
         "homepage": "http://wordpress.org/plugins/nofollow/"
     },
     {
-        "name": "wpackagist-plugin/infinite-scroll",
-        "version": "2.6.2",
-        "version_normalized": "2.6.2.0",
-        "source": {
-            "type": "svn",
-            "url": "http://plugins.svn.wordpress.org/infinite-scroll/",
-            "reference": "tags/2.6.2"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "http://downloads.wordpress.org/plugin/infinite-scroll.2.6.2.zip",
-            "reference": null,
-            "shasum": null
-        },
-        "require": {
-            "composer/installers": "~1.0"
-        },
-        "replace": {
-            "wpackagist/infinite-scroll": "self.version"
-        },
-        "type": "wordpress-plugin",
-        "installation-source": "dist",
-        "homepage": "http://wordpress.org/plugins/infinite-scroll/"
-    },
-    {
         "name": "wpackagist-plugin/w3-total-cache",
         "version": "0.9.4.1",
         "version_normalized": "0.9.4.1",
@@ -543,50 +518,6 @@
         "homepage": "https://wordpress.org/plugins/broken-link-checker/"
     },
     {
-        "name": "wpackagist-plugin/search-and-replace",
-        "version": "2.7.0",
-        "version_normalized": "2.7.0.0",
-        "source": {
-            "type": "svn",
-            "url": "http://plugins.svn.wordpress.org/search-and-replace/",
-            "reference": "tags/2.7.0"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "http://downloads.wordpress.org/plugin/search-and-replace.2.7.0.zip",
-            "reference": null,
-            "shasum": null
-        },
-        "require": {
-            "composer/installers": "~1.0"
-        },
-        "type": "wordpress-plugin",
-        "installation-source": "dist",
-        "homepage": "https://wordpress.org/plugins/search-and-replace/"
-    },
-    {
-        "name": "wpackagist-plugin/iq-block-country",
-        "version": "1.1.16",
-        "version_normalized": "1.1.16.0",
-        "source": {
-            "type": "svn",
-            "url": "http://plugins.svn.wordpress.org/iq-block-country/",
-            "reference": "tags/1.1.16"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "http://downloads.wordpress.org/plugin/iq-block-country.1.1.16.zip",
-            "reference": null,
-            "shasum": null
-        },
-        "require": {
-            "composer/installers": "~1.0"
-        },
-        "type": "wordpress-plugin",
-        "installation-source": "dist",
-        "homepage": "https://wordpress.org/plugins/iq-block-country/"
-    },
-    {
         "name": "wpackagist-plugin/ultimate-posts-widget",
         "version": "2.0.3",
         "version_normalized": "2.0.3.0",
@@ -607,28 +538,6 @@
         "type": "wordpress-plugin",
         "installation-source": "dist",
         "homepage": "https://wordpress.org/plugins/ultimate-posts-widget/"
-    },
-    {
-        "name": "wpackagist-plugin/wp-smushit",
-        "version": "1.7",
-        "version_normalized": "1.7.0.0",
-        "source": {
-            "type": "svn",
-            "url": "http://plugins.svn.wordpress.org/wp-smushit/",
-            "reference": "tags/1.7"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "http://downloads.wordpress.org/plugin/wp-smushit.1.7.zip",
-            "reference": null,
-            "shasum": null
-        },
-        "require": {
-            "composer/installers": "~1.0"
-        },
-        "type": "wordpress-plugin",
-        "installation-source": "dist",
-        "homepage": "https://wordpress.org/plugins/wp-smushit/"
     },
     {
         "name": "wpackagist-plugin/go-newrelic",

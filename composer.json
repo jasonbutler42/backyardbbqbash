@@ -57,8 +57,6 @@
     "wpackagist-plugin/floating-social-bar": "1.1.5",
     "wpackagist-plugin/go-newrelic": "0.3",
     "wpackagist-plugin/honeypot-comments": "1.1.0",
-    "wpackagist-plugin/infinite-scroll": "2.6.2",
-    "wpackagist-plugin/iq-block-country": "1.1.16",
     "wpackagist-plugin/jetpack": "3.3.2",
     "wpackagist-plugin/page-links-to": "2.9.4",
     "wpackagist-plugin/raw-html": "1.4.14",
@@ -66,12 +64,10 @@
     "wpackagist-plugin/sabre": "1.2.2",
     "roots/soil": "3.0.1",
     "wpackagist-plugin/subscribe-to-comments-reloaded": "150207",
-    "wpackagist-plugin/search-and-replace": "2.7.0",
     "wpackagist-plugin/nofollow": "1.4.2",
     "wpackagist-plugin/ultimate-posts-widget": "2.0.3",
     "wpackagist-plugin/w3-total-cache": "0.9.4.1",
-    "wpackagist-plugin/wordpress-importer": "0.6.1",
-    "wpackagist-plugin/wp-smushit": "1.7"
+    "wpackagist-plugin/wordpress-importer": "0.6.1"
   },
   "extra": {
     "installer-paths": {
