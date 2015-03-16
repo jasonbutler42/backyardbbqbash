@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "cb79ab3d434dc3f15ae131f355f6149a",
+    "hash": "51df787f6f31f0215010d7924c6b6c4b",
     "packages": [
         {
             "name": "composer/installers",
@@ -260,26 +260,23 @@
         },
         {
             "name": "wpackagist-plugin/akismet",
-            "version": "3.0.4",
+            "version": "3.1",
             "source": {
                 "type": "svn",
                 "url": "http://plugins.svn.wordpress.org/akismet/",
-                "reference": "tags/3.0.4"
+                "reference": "tags/3.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "http://downloads.wordpress.org/plugin/akismet.3.0.4.zip",
+                "url": "https://downloads.wordpress.org/plugin/akismet.3.1.zip",
                 "reference": null,
                 "shasum": null
             },
             "require": {
                 "composer/installers": "~1.0"
             },
-            "replace": {
-                "wpackagist/akismet": "self.version"
-            },
             "type": "wordpress-plugin",
-            "homepage": "http://wordpress.org/plugins/akismet/"
+            "homepage": "https://wordpress.org/plugins/akismet/"
         },
         {
             "name": "wpackagist-plugin/all-in-one-seo-pack",
@@ -363,26 +360,6 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/broken-link-checker/"
-        },
-        {
-            "name": "wpackagist-plugin/floating-social-bar",
-            "version": "1.1.5",
-            "source": {
-                "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/floating-social-bar/",
-                "reference": "trunk"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "http://downloads.wordpress.org/plugin/floating-social-bar.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/floating-social-bar/"
         },
         {
             "name": "wpackagist-plugin/go-newrelic",
@@ -472,26 +449,23 @@
         },
         {
             "name": "wpackagist-plugin/page-links-to",
-            "version": "2.9.4",
+            "version": "2.9.6",
             "source": {
                 "type": "svn",
                 "url": "http://plugins.svn.wordpress.org/page-links-to/",
-                "reference": "tags/2.9.4"
+                "reference": "tags/2.9.6"
             },
             "dist": {
                 "type": "zip",
-                "url": "http://downloads.wordpress.org/plugin/page-links-to.2.9.4.zip",
+                "url": "https://downloads.wordpress.org/plugin/page-links-to.2.9.6.zip",
                 "reference": null,
                 "shasum": null
             },
             "require": {
                 "composer/installers": "~1.0"
             },
-            "replace": {
-                "wpackagist/page-links-to": "self.version"
-            },
             "type": "wordpress-plugin",
-            "homepage": "http://wordpress.org/plugins/page-links-to/"
+            "homepage": "https://wordpress.org/plugins/page-links-to/"
         },
         {
             "name": "wpackagist-plugin/raw-html",
@@ -621,6 +595,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "http://wordpress.org/plugins/w3-total-cache/"
+        },
+        {
+            "name": "wpackagist-plugin/wordfence",
+            "version": "5.3.6",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/wordfence/",
+                "reference": "tags/5.3.6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/wordfence.5.3.6.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/wordfence/"
         },
         {
             "name": "wpackagist-plugin/wordpress-importer",

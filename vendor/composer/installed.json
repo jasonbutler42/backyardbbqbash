@@ -174,31 +174,6 @@
         ]
     },
     {
-        "name": "wpackagist-plugin/page-links-to",
-        "version": "2.9.4",
-        "version_normalized": "2.9.4.0",
-        "source": {
-            "type": "svn",
-            "url": "http://plugins.svn.wordpress.org/page-links-to/",
-            "reference": "tags/2.9.4"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "http://downloads.wordpress.org/plugin/page-links-to.2.9.4.zip",
-            "reference": null,
-            "shasum": null
-        },
-        "require": {
-            "composer/installers": "~1.0"
-        },
-        "replace": {
-            "wpackagist/page-links-to": "self.version"
-        },
-        "type": "wordpress-plugin",
-        "installation-source": "dist",
-        "homepage": "http://wordpress.org/plugins/page-links-to/"
-    },
-    {
         "name": "vlucas/phpdotenv",
         "version": "v1.0.9",
         "version_normalized": "1.0.9.0",
@@ -427,31 +402,6 @@
         "homepage": "http://wordpress.org/plugins/w3-total-cache/"
     },
     {
-        "name": "wpackagist-plugin/akismet",
-        "version": "3.0.4",
-        "version_normalized": "3.0.4.0",
-        "source": {
-            "type": "svn",
-            "url": "http://plugins.svn.wordpress.org/akismet/",
-            "reference": "tags/3.0.4"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "http://downloads.wordpress.org/plugin/akismet.3.0.4.zip",
-            "reference": null,
-            "shasum": null
-        },
-        "require": {
-            "composer/installers": "~1.0"
-        },
-        "replace": {
-            "wpackagist/akismet": "self.version"
-        },
-        "type": "wordpress-plugin",
-        "installation-source": "dist",
-        "homepage": "http://wordpress.org/plugins/akismet/"
-    },
-    {
         "name": "wpackagist-plugin/raw-html",
         "version": "1.4.14",
         "version_normalized": "1.4.14.0",
@@ -472,28 +422,6 @@
         "type": "wordpress-plugin",
         "installation-source": "dist",
         "homepage": "http://wordpress.org/plugins/raw-html/"
-    },
-    {
-        "name": "wpackagist-plugin/floating-social-bar",
-        "version": "1.1.5",
-        "version_normalized": "1.1.5.0",
-        "source": {
-            "type": "svn",
-            "url": "http://plugins.svn.wordpress.org/floating-social-bar/",
-            "reference": "trunk"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "http://downloads.wordpress.org/plugin/floating-social-bar.zip",
-            "reference": null,
-            "shasum": null
-        },
-        "require": {
-            "composer/installers": "~1.0"
-        },
-        "type": "wordpress-plugin",
-        "installation-source": "dist",
-        "homepage": "https://wordpress.org/plugins/floating-social-bar/"
     },
     {
         "name": "wpackagist-plugin/broken-link-checker",
@@ -686,5 +614,71 @@
         "type": "wordpress-plugin",
         "installation-source": "dist",
         "homepage": "https://wordpress.org/plugins/jetpack/"
+    },
+    {
+        "name": "wpackagist-plugin/wordfence",
+        "version": "5.3.6",
+        "version_normalized": "5.3.6.0",
+        "source": {
+            "type": "svn",
+            "url": "http://plugins.svn.wordpress.org/wordfence/",
+            "reference": "tags/5.3.6"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://downloads.wordpress.org/plugin/wordfence.5.3.6.zip",
+            "reference": null,
+            "shasum": null
+        },
+        "require": {
+            "composer/installers": "~1.0"
+        },
+        "type": "wordpress-plugin",
+        "installation-source": "dist",
+        "homepage": "https://wordpress.org/plugins/wordfence/"
+    },
+    {
+        "name": "wpackagist-plugin/akismet",
+        "version": "3.1",
+        "version_normalized": "3.1.0.0",
+        "source": {
+            "type": "svn",
+            "url": "http://plugins.svn.wordpress.org/akismet/",
+            "reference": "tags/3.1"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://downloads.wordpress.org/plugin/akismet.3.1.zip",
+            "reference": null,
+            "shasum": null
+        },
+        "require": {
+            "composer/installers": "~1.0"
+        },
+        "type": "wordpress-plugin",
+        "installation-source": "dist",
+        "homepage": "https://wordpress.org/plugins/akismet/"
+    },
+    {
+        "name": "wpackagist-plugin/page-links-to",
+        "version": "2.9.6",
+        "version_normalized": "2.9.6.0",
+        "source": {
+            "type": "svn",
+            "url": "http://plugins.svn.wordpress.org/page-links-to/",
+            "reference": "tags/2.9.6"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://downloads.wordpress.org/plugin/page-links-to.2.9.6.zip",
+            "reference": null,
+            "shasum": null
+        },
+        "require": {
+            "composer/installers": "~1.0"
+        },
+        "type": "wordpress-plugin",
+        "installation-source": "dist",
+        "homepage": "https://wordpress.org/plugins/page-links-to/"
     }
 ]
