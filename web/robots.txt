@@ -1,7 +1,0 @@
-User-agent: *
-Disallow: /wp/
-Disallow: /wp
-Disallow: /dumbass_robots/
-Disallow: /dumbass_robots
-
-Sitemap: http://grillinfools.com/sitemap.xml.gz
