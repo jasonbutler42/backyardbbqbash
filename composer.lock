@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "bb6fc02e514010016891b406cd337c1d",
+    "hash": "8f95e739c7d6060e9a716b81de191217",
     "packages": [
         {
             "name": "composer/installers",
@@ -226,10 +226,10 @@
         },
         {
             "name": "wordpress/wordpress",
-            "version": "4.2",
+            "version": "4.2.1",
             "dist": {
                 "type": "zip",
-                "url": "https://wordpress.org/wordpress-4.2.zip",
+                "url": "https://wordpress.org/wordpress-4.2.1.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -323,15 +323,15 @@
         },
         {
             "name": "wpackagist-plugin/broken-link-checker",
-            "version": "1.10.7",
+            "version": "1.10.8",
             "source": {
                 "type": "svn",
                 "url": "http://plugins.svn.wordpress.org/broken-link-checker/",
-                "reference": "tags/1.10.7"
+                "reference": "tags/1.10.8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/broken-link-checker.1.10.7.zip",
+                "url": "https://downloads.wordpress.org/plugin/broken-link-checker.1.10.8.zip",
                 "reference": null,
                 "shasum": null
             },
