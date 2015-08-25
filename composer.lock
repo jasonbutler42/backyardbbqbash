@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "cca89366b0637ace0095d00b043e9850",
+    "hash": "34f95b305c905122753eb38f1ab1c8d4",
     "packages": [
         {
             "name": "composer/installers",
@@ -226,10 +226,10 @@
         },
         {
             "name": "wordpress/wordpress",
-            "version": "4.2.2",
+            "version": "4.3",
             "dist": {
                 "type": "zip",
-                "url": "https://wordpress.org/wordpress-4.2.2.zip",
+                "url": "https://wordpress.org/wordpress-4.3.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -240,7 +240,7 @@
         },
         {
             "name": "wpackagist-plugin/advanced-responsive-video-embedder",
-            "version": "5.3.6",
+            "version": "6.1.1",
             "source": {
                 "type": "svn",
                 "url": "http://plugins.svn.wordpress.org/advanced-responsive-video-embedder/",
@@ -260,15 +260,15 @@
         },
         {
             "name": "wpackagist-plugin/akismet",
-            "version": "3.1.1",
+            "version": "3.1.3",
             "source": {
                 "type": "svn",
                 "url": "http://plugins.svn.wordpress.org/akismet/",
-                "reference": "tags/3.1.1"
+                "reference": "tags/3.1.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/akismet.3.1.1.zip",
+                "url": "https://downloads.wordpress.org/plugin/akismet.3.1.3.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -280,15 +280,15 @@
         },
         {
             "name": "wpackagist-plugin/all-in-one-seo-pack",
-            "version": "2.2.6.2",
+            "version": "2.2.7.1",
             "source": {
                 "type": "svn",
                 "url": "http://plugins.svn.wordpress.org/all-in-one-seo-pack/",
-                "reference": "tags/2.2.6.2"
+                "reference": "tags/2.2.7.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/all-in-one-seo-pack.2.2.6.2.zip",
+                "url": "https://downloads.wordpress.org/plugin/all-in-one-seo-pack.2.2.7.1.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -322,16 +322,36 @@
             "homepage": "http://wordpress.org/plugins/ap-honeypot/"
         },
         {
-            "name": "wpackagist-plugin/broken-link-checker",
-            "version": "1.10.8",
+            "name": "wpackagist-plugin/bj-lazy-load",
+            "version": "0.7.5",
             "source": {
                 "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/broken-link-checker/",
-                "reference": "tags/1.10.8"
+                "url": "http://plugins.svn.wordpress.org/bj-lazy-load/",
+                "reference": "tags/0.7.5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/broken-link-checker.1.10.8.zip",
+                "url": "https://downloads.wordpress.org/plugin/bj-lazy-load.0.7.5.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/bj-lazy-load/"
+        },
+        {
+            "name": "wpackagist-plugin/broken-link-checker",
+            "version": "1.10.9",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/broken-link-checker/",
+                "reference": "tags/1.10.9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/broken-link-checker.1.10.9.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -340,26 +360,6 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/broken-link-checker/"
-        },
-        {
-            "name": "wpackagist-plugin/go-newrelic",
-            "version": "0.3",
-            "source": {
-                "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/go-newrelic/",
-                "reference": "trunk"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "http://downloads.wordpress.org/plugin/go-newrelic.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/go-newrelic/"
         },
         {
             "name": "wpackagist-plugin/honeypot-comments",
@@ -386,15 +386,15 @@
         },
         {
             "name": "wpackagist-plugin/jetpack",
-            "version": "3.5.3",
+            "version": "3.6.1",
             "source": {
                 "type": "svn",
                 "url": "http://plugins.svn.wordpress.org/jetpack/",
-                "reference": "tags/3.5.3"
+                "reference": "tags/3.6.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/jetpack.3.5.3.zip",
+                "url": "https://downloads.wordpress.org/plugin/jetpack.3.6.1.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -403,26 +403,6 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/jetpack/"
-        },
-        {
-            "name": "wpackagist-plugin/nofollow",
-            "version": "1.4.3",
-            "source": {
-                "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/nofollow/",
-                "reference": "tags/1.4.3"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/nofollow.1.4.3.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/nofollow/"
         },
         {
             "name": "wpackagist-plugin/page-links-to",
@@ -488,102 +468,16 @@
             "homepage": "http://wordpress.org/plugins/remove-image-links/"
         },
         {
-            "name": "wpackagist-plugin/sabre",
-            "version": "1.2.2",
-            "source": {
-                "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/sabre/",
-                "reference": "tags/1.2.2"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "http://downloads.wordpress.org/plugin/sabre.1.2.2.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "replace": {
-                "wpackagist/sabre": "self.version"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "http://wordpress.org/plugins/sabre/"
-        },
-        {
-            "name": "wpackagist-plugin/subscribe-to-comments-reloaded",
-            "version": 150422,
-            "source": {
-                "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/subscribe-to-comments-reloaded/",
-                "reference": "tags/150422"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/subscribe-to-comments-reloaded.150422.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/subscribe-to-comments-reloaded/"
-        },
-        {
-            "name": "wpackagist-plugin/ultimate-posts-widget",
-            "version": "2.0.3",
-            "source": {
-                "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/ultimate-posts-widget/",
-                "reference": "tags/2.0.3"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "http://downloads.wordpress.org/plugin/ultimate-posts-widget.2.0.3.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/ultimate-posts-widget/"
-        },
-        {
-            "name": "wpackagist-plugin/w3-total-cache",
-            "version": "0.9.4.1",
-            "source": {
-                "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/w3-total-cache/",
-                "reference": "tags/0.9.4.1"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "http://downloads.wordpress.org/plugin/w3-total-cache.0.9.4.1.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "replace": {
-                "wpackagist/w3-total-cache": "self.version"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "http://wordpress.org/plugins/w3-total-cache/"
-        },
-        {
             "name": "wpackagist-plugin/wordfence",
-            "version": "5.3.12",
+            "version": "6.0.15",
             "source": {
                 "type": "svn",
                 "url": "http://plugins.svn.wordpress.org/wordfence/",
-                "reference": "tags/5.3.12"
+                "reference": "tags/6.0.15"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wordfence.5.3.12.zip",
+                "url": "https://downloads.wordpress.org/plugin/wordfence.6.0.15.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -592,29 +486,6 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/wordfence/"
-        },
-        {
-            "name": "wpackagist-plugin/wordpress-importer",
-            "version": "0.6.1",
-            "source": {
-                "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/wordpress-importer/",
-                "reference": "tags/0.6.1"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "http://downloads.wordpress.org/plugin/wordpress-importer.0.6.1.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "replace": {
-                "wpackagist/wordpress-importer": "self.version"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "http://wordpress.org/plugins/wordpress-importer/"
         }
     ],
     "packages-dev": [],
